@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #8bebad;
+}
+
+header {
+    min-height: 150px;
+    background-image: linear-gradient(to top, #1B5931, #3DD973);
+    margin: auto;
+    margin-bottom: 8px;
+    padding: 10px;
+    padding-top: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+header > h1 {
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+header > p {
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 40px;
+}
+nav {
+    padding: 10px;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+main {
+    min-width: 320px;
+    max-width: 800px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 2px 22px rgba(0, 0, 0, 0.842);
+    height: 2150px;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid/IDroid.otf);
+}
+main > h2 {
+    font-family: idroid, Arial, Helvetica, sans-serif;
+    margin: -6px;
+    margin-left: 50px;
+    color: #1B5931;
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.versao {
+    background-image: linear-gradient(to right, #b6f0b6, #d0d8d0);
+    margin: auto;
+}
+
+.link1 {
+    color: #129c43;
+    text-decoration: none;
+}
+
+div {
+    min-width: 320px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.video {
+    background-color: #1B5931; 
+}
+
+footer > h2 {
+    min-width: 320px;
+    max-width: 800px;
+    font-size: large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2fc965;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 15px;
+    font-weight: bolder;
+    text-indent: 40px;
+    background-color: #8bebad;
+    margin-top: 0px;
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.425);
+}
+
+.cupcake {
+    min-width: 320px;
+    max-width: 800px;
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    transition: background-color 0.5s ease-in-out;
+}
+.cupcake:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+div > a {
+    display: block;
+    text-align: start;
+    color: black;
+    text-decoration: none;
+}
+div > a:hover {
+    text-decoration: underline;
+}
+
+div.parte2 {
+    text-indent: 600px;
+    margin: -149px;
+}
+div > .abaixo {
+    text-indent: 50px;
+    text-align: justify;
+    width: 700px;
+    margin-left: 150px;
+}
+div > .abaixo2 {
+    text-indent: 50px;
+    text-align: justify;
+    width: 700px;
+    margin-left: 150px;
+}
+
+.final {
+    text-align: justify;
+    width: 700px;
+    margin-left: 20px;
+}
+
+.criador {
+    color: white;
+    background-color: #072512;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.788);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}

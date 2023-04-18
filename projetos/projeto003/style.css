@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    background-color: #b4a490;
+    border: 1px solid black;
+}
+
+header {
+    background-color: black;
+    padding: 50px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.61);
+    
+}
+
+@font-face {
+    font-family: bolgart;
+    src: url(fontes/Bolgart.ttf);
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: bolgart, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 20px;
+}
+header > p {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-family: bolgart, Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+span {
+    font-weight: lighter;
+    font-size: small;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+main > .estrofe1 {
+    font-family: 'Farsan', cursive;
+    margin-top: 96px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+figcaption {
+    color: white;
+    margin: auto;
+    text-shadow: 1px 2px 4px black;
+    font-family: bolgart, Arial, Helvetica, sans-serif;
+    background-color: rgb(43, 43, 43);
+    width: 135px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.521);
+}
+figcaption > span {
+    font-weight: bold;
+}
+
+div {
+    margin: auto;
+    background-color: #EBD6BD;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.61);
+    padding: 1px;
+}
+
+div > .estrofe2 {
+    background-color: rgba(80, 78, 78, 0.336);
+    font-family: 'Farsan', cursive;
+    margin-top: 96px;
+    font-weight: bolder;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px black;
+}
+
+main > .estrofe3 {
+    font-family: 'Farsan', cursive;
+    margin-top: 96px;
+    font-weight: bolder;
+    text-align: left;
+}
